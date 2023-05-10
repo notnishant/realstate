@@ -30,10 +30,11 @@
     text-align: center;
   }
   .fo-right .primaryText {
-    padding-left: 3.5rem;
+    padding-left: 3rem;
+    font-size: 1.4rem;
   }
   .fo-right .secondaryText {
-    padding-left: 3.5rem;
+    padding-left: 1.7rem;
   }
 
   .fo-right {
@@ -41,5 +42,8 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+  .fo-menu {
+    font-size: 0.7rem;
   }
 }

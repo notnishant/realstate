@@ -66,9 +66,10 @@
   width: 100%;
   height: 100%;
 }
-@media (max-width: 640px) {
+@media (max-width: 768px) {
   .hero-container {
     margin-top: 2rem;
+    flex-direction: column;
   }
   .hero-left {
     margin: 0;
@@ -106,5 +107,32 @@
   }
   .search-bar > input {
     width: 6rem;
+  }
+}
+@media (min-width: 770px) and (max-width: 1216px) {
+  .hero-container {
+    margin-left: 0;
+    flex-direction: space-around;
+  }
+  .hero-left {
+    margin: 0;
+    padding-left: 5rem;
+  }
+  .hero-right {
+    margin: 0;
+  }
+  .hero-title > h1 {
+    padding-top: 2rem;
+    font-size: 3rem;
+    line-height: 3.4rem;
+  }
+  .orange-circle {
+    top: 0%;
+    right: 25%;
+  }
+  .hero-right .image-container {
+    width: 23rem;
+    height: 28rem;
+    margin-right: 3rem;
   }
 }

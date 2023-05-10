@@ -76,3 +76,17 @@
     }
   }
 }
+@media (min-width: 1024px) and (max-width: 1216px) {
+  .v-right {
+    margin-right: 6rem;
+  }
+  .v-container .image-container {
+    width: 23rem;
+    height: 28rem;
+  }
+  .accordion {
+    margin-top: 2rem;
+    border: none;
+    max-width: 29rem;
+  }
+}

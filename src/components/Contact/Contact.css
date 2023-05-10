@@ -54,6 +54,7 @@
 }
 @media (max-width: 768px) {
   .c-container {
+    flex-direction: column;
     margin: 0;
     flex-direction: column;
   }
@@ -73,5 +74,30 @@
   }
   .c-container .orangeText {
     font-size: 1.2rem;
+  }
+  .c-right .image-container {
+    width: 95%;
+    height: 25rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rgba(255, 255, 255, 0.12);
+  }
+}
+@media (min-width: 770px) and (max-width: 1216px) {
+  .c-container {
+    flex-direction: row;
+    margin: 0;
+  }
+  .c-left {
+    width: 100%;
+    padding-left: 10rem;
+  }
+  .c-right .image-container {
+    width: 23rem;
+    height: 28rem;
+  }
+  .c-right {
+    width: 100%;
+    padding-left: 18rem;
   }
 }
