@@ -1,3 +1,5 @@
+import React, { useState } from "react";
+
 import {
   Accordion,
   AccordionItem,
@@ -10,7 +12,6 @@ import "react-accessible-accordion/dist/fancy-example.css";
 import { MdOutlineArrowDropDown } from "react-icons/md";
 import "./Value.css";
 import data from "../../utils/accordion";
-import { useState } from "react";
 const Value = () => {
   return (
     <section className="v-wrapper">
@@ -40,7 +41,7 @@ const Value = () => {
               const [className, setClassName] = useState(null);
               return (
                 <AccordionItem
-                  className={"accordionItem ${className}"}
+                  className={`accordionItem ${className}`}
                   key={i}
                   uuid={i}
                 >
