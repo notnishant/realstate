@@ -24,7 +24,7 @@ const Hero = () => {
           </div>
           <div className="flexCenter search-bar">
             <LocationIcon size={16} fill="black" />
-            <input type="text" />
+            <input className=" input" type="text" />
             <button className="button">Search</button>
           </div>
           <div className="flexCenter stats">
